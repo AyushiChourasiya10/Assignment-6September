@@ -1,0 +1,58 @@
+1 Replace a character a with e in a given string without using inbuilt method
+package com.yash.Stringreplacement 
+public class Replace {
+    public static void main(String[] args) {
+       String s = "Halo";
+       System.out.println("String: "+s);
+       int pos = 1;
+       char h = 'e';
+       String result = str.substring(0, pos) + h + str.substring(pos + 1);
+       System.out.println("Replace of character of string is: "+result);
+    }
+}
+2 Write a code to  mask a given string
+package com.yash.Masking
+public class Mask
+{
+ String s = "Ayushi Chourasiya";
+ String arr[] = s.split(" ");
+ int n = arr.length;
+ String P = "";
+ for(int i=0; i<n; i++)
+ {
+   for(int j=0;j<arr[i].length();j++)
+   {
+    if(j>2 && j<arr[i].length())
+    {
+     P +=  "X";
+    }
+   else
+   {
+    char a =arr[i].charAt(j);
+    P += a;
+   }
+ }
+}
+  System.out.println(P);
+}
+}
+3 Check if the given string starts with A and end with T
+package yash.com.StringCheck;
+public class Check
+    {
+    public static void main(String[] args)
+    {
+        String str1 = "Abstract";
+        String str2 = "AntiAllergy";
+        String end_str = "t";
+       System.out.println(str1.startsWith("A"));
+       System.out.println(str2.startsWith("A"));
+        boolean ends1 = str1.endsWith(end_str);
+        boolean ends2 = str2.endsWith(end_str);
+        System.out.println("\"" + str1 + "\" ends with " +
+            "\"" + end_str + "\"? " + ends1);
+        System.out.println("\"" + str2 + "\" ends with " +
+            "\"" + end_str + "\"? " + ends2);
+    }
+}
+4 
